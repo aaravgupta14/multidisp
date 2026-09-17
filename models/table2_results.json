@@ -1,0 +1,50 @@
+{
+  "Voltage bias": {
+    "detection": 96.0,
+    "identification": 68.0,
+    "localization": 88.0,
+    "f1": 88.55495175779083,
+    "delay": 0.8333333333333334,
+    "n": 25
+  },
+  "Voltage drift": {
+    "detection": 100.0,
+    "identification": 8.0,
+    "localization": 48.0,
+    "f1": 83.7929366231253,
+    "delay": 26.88,
+    "n": 25
+  },
+  "Voltage stochastic noise": {
+    "detection": 100.0,
+    "identification": 88.0,
+    "localization": 88.0,
+    "f1": 75.86094954686867,
+    "delay": 1.12,
+    "n": 25
+  },
+  "Current bias": {
+    "detection": 100.0,
+    "identification": 32.0,
+    "localization": 60.0,
+    "f1": 75.79652717373796,
+    "delay": 33.8,
+    "n": 25
+  },
+  "Current drift": {
+    "detection": 100.0,
+    "identification": 8.0,
+    "localization": 44.0,
+    "f1": 70.89062697111139,
+    "delay": 66.48,
+    "n": 25
+  },
+  "Temperature manipulation": {
+    "detection": 76.0,
+    "identification": 8.0,
+    "localization": 12.0,
+    "f1": 19.89547038327526,
+    "delay": 183.47368421052633,
+    "n": 25
+  }
+}

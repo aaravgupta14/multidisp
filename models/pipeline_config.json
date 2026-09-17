@@ -1,0 +1,26 @@
+{
+  "pack_capacity_ah": 71.66045190713102,
+  "detection_threshold_tau": 3.6214482633173213,
+  "trust_lambda": 0.19140054756022062,
+  "channel_thresholds_tau_c": {
+    "V": 10.560358894068198,
+    "I": 11.240920384588422,
+    "T": 0.5383650088491435
+  },
+  "channel_lambdas_lam_c": {
+    "V": 0.06563670681204682,
+    "I": 0.06166284937933259,
+    "T": 1.2875041452669402
+  },
+  "features": [
+    "Pack Voltage (V)",
+    "Pack Current (A)",
+    "Cell Temp 1 (C)"
+  ],
+  "target": "Pack SoC (%)",
+  "rf_params": {
+    "n_estimators": 60,
+    "max_depth": 9,
+    "random_state": 42
+  }
+}
